@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Friends",
+    "version": "1.0",
+  
+    "description": "Reveals a new fun fact about the hit tv show friends on every new tab",
+  
+    "icons": {
+      "48": "icons/friends_logo"
+    },
+  
+    
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["friends.js"]
+      }
+    ]
+  
+  }
