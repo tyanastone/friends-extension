@@ -9,3 +9,8 @@ var facts = [
 
 'In 1995, the song reached number 1 in the Billboard Hot 100 Airplay chart for eight weeks.'
 ]
+
+function newFacts() {
+    var randomNumber = Math.floor(Math.random() * (facts.length));
+    document.getElementById('factsDisplay').innerHTML = facts[randomNumber];
+}
