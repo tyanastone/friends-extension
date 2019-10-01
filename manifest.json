@@ -10,7 +10,9 @@
       "48": "icons/friends-logo.gif"
     },
   
-    
+    "permissions": [
+        "activeTab"
+      ],
 
     "content_scripts": [
       {
